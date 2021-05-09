@@ -23,10 +23,17 @@ ul {
     vertical-align:top;
     justify-content: flex-end;
 }
+.casestudy ul {
+    display: block;
+    width: 100%;
+}
 li {
     padding-inline: 30px;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+}
+.casestudy li {
+    color: #000000;
 }
 li:hover {
     text-decoration: underline;
@@ -71,10 +78,9 @@ footer {
     text-align: center;
     width: 65%;
 }
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    text-align: center;
+.casestudy h1 {
+    text-align: left;
+    padding-top: 15px;
 }
 p {
     font-family: 'Karla', sans-serif;
@@ -152,13 +158,60 @@ a:hover {
     margin-left: 45px;
     margin-right: 45px;
 }
-h4 {
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+h2 {
     font-family: 'Montserrat';
     font-size: 24px;
 }
 h3 {
     font-family: 'Montserrat';
     font-size: 30px;
+}
+h4 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+.maininfo {
+    width: inherit;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+.hover:hover {
+    text-decoration: none;
+    color:#000000
+}
+.problemsolution {
+    width: 200px;
+}
+.row {
+    text-align: center;
+    margin-top: 30px;
+}
+.row p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.affinity {
+    width: 500px;
+    text-align: center;
+}
+.persona {
+    width: 500px;
+    text-align: center;
+}
+.feature {
+    width: 500px;
+}
+.feedback {
+    width: 500px;
+}
+.prototype {
+    text-align: center;
 }
 @media only screen and (max-width: 1240px) {
     .workgrid {
@@ -188,5 +241,10 @@ h3 {
     }
     .workgrid div {
         width: inherit;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .col-md-8 {
+        width: 100%;
     }
 }
